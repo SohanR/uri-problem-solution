@@ -12,16 +12,5 @@ int main()
 
     cout<<"VOLUME = "<<fixed<<setprecision(3)<<vol<<endl;
 
-
-
-
-
-
-
-
-
-
-
-
 return 0;
 }
