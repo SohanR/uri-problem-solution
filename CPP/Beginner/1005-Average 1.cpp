@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int main()
 {
@@ -8,7 +9,7 @@ int main()
 
     m = ((A*3.5)+(B*7.5))/(3.5+7.5);
 
-    cout<<"MEDIA = "<<m<<endl;
+    cout<<"MEDIA = "<<fixed<<setprecision(5)<<m<<endl;
 
     return 0;
 }
